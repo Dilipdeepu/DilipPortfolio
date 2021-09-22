@@ -18,9 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'dilp.jpg',
-  paragraphOne: 'Hello! I\'m Dilip Kumar developer based out of Bengaluru,India. I make web applications ,usually with DJANGO',
-  paragraphTwo: 'I primarily use Python,but picking up a new framework or language isn\'t a problem. i have extensive programming experiencce in projects i have done and i\'m comfortable developing on the frontend or backend as well as setting up or managing infrastruture',
-  paragraphThree: 'I am familiar with Java and its associated stack , my bread and butter is Django other python Libraries Pandas,Numbpy,Matplotlib,OpenCv,MySql',
+  paragraphOne:
+    "Hello! I'm Dilip Kumar developer based out of Bengaluru,India. I make web applications ,usually with DJANGO",
+  paragraphTwo:
+    "I primarily use Python,but picking up a new framework or language isn't a problem. i have extensive programming experiencce in projects i have done and i'm comfortable developing on the frontend or backend as well as setting up or managing infrastruture",
+  paragraphThree:
+    'I am familiar with Java and its associated stack , my bread and butter is Django other python Libraries Pandas,Numbpy,Matplotlib,OpenCv,MySql',
   resume: 'https://drive.google.com/uc?export=download&id=1VNUc1DzYBvYYuYYeRCUo68RN45N21Zbu', // if no resume, the button will not show up
 };
 
@@ -48,7 +51,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'To-Do.png',
     title: 'TODO-LIST 	',
-    info: 'A simple app implemented using Html5,CSS3,python and Bootstrap. A list everything that you have to do, with the most  important tasks on daily basis. And by prioritizing tasks, you plan the order in which you\'ll do them, so that you can know what needs your immediate attention, and what you can leave until later',
+    info: "A simple app implemented using Html5,CSS3,python and Bootstrap. A list everything that you have to do, with the most  important tasks on daily basis. And by prioritizing tasks, you plan the order in which you'll do them, so that you can know what needs your immediate attention, and what you can leave until later",
     info2: '',
     url: 'https://github.com/',
     repo: 'https://github.com/', // if no repo, the button will not show up
